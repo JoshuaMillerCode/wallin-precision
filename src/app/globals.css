@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .skip-link:focus {
+    position: absolute;
+    left: 1.5rem;
+    top: 1rem;
+    z-index: 50;
+    width: auto;
+    height: auto;
+    padding: 0.5rem 0.75rem;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+    border-radius: 0.25rem;
+    background: #1c1c1e;
+    color: #b0b4bc;
+    border: 2px solid #8b9a4d;
+  }
+}
